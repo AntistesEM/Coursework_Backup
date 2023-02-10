@@ -91,7 +91,6 @@ class YandexDisk(VK):
         super().__init__(user_vk.user, user_vk.token, user_vk.count)
         self.token = token_
         self.user_id = user_vk.user
-        # self.album_id = user_vk.album_id
         self.headers = {
             'Content-Type': 'application/json',
             'Authorization': f'OAuth {token_}'
