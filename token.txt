@@ -1,0 +1,2 @@
+access_token для VK
+OAuth-токен для Yandex
